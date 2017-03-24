@@ -5,10 +5,13 @@ date: "3/24/2017"
 output: html_document
 ---
 Using FormEmailer by Henrique Abreu: https://sites.google.com/site/formemailer/form-emailer
+
 Version 3.65 
+
 "FormEmailer is a Google Apps Script for Google Forms and Spreadsheets. With it you're able to easily set up flexible e-mail merge in your spreadsheets and automatic emailing to your forms."
 
-##Jack Serna's patch walkthrough:
+Patch walkthrough:
+
 After installing "FormEmailer" into your desired google sheet in the script editor, adjusting your settings, and adding your trigger for automation, you may notice errors inside your spreadsheet as well as seemingly endless blank emails. 
 
 If you're having emails sent to you that must mean you have set up an automatic trigger (time-driven) and you have set up the settings to send emails to your address (for testing, I assume?). If you have an email address column you want to send emails to, that should be the column in which a placeholder references.
